@@ -28,7 +28,7 @@ main{
     box-shadow: 0 0 10px black inset;
     width: 300px; 
 }
-.main-modal{
+.main__modal{
     display: none;
 }
 

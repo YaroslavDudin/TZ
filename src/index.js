@@ -8,8 +8,8 @@ myBtn.addEventListener("click", (e) => {
 });
 
 document.getElementById("btn-close").addEventListener("click", (e) => {
-    e.preventDefault();
-    modal.style.display = "none";
-    myBtn.style.display = "block";
-  
+  e.preventDefault();
+  modal.style.display = "none";
+  myBtn.style.display = "block";
 });
+// во втором способе я просто добавляю к элементу active
